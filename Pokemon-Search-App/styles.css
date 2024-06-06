@@ -1,0 +1,171 @@
+body {
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction:column;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+font-family: "Lato", "Arial", sans-serif;
+}
+
+#pokemon-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 15px;
+font-size: 30px;
+}
+button {
+    font-size: 20px;
+}
+
+#name-and-id {
+  height: 28px;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.size {
+  height: 22px;
+  font-size: 0.85rem;
+}
+
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sprite {
+  width: 180px;
+}
+
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.type {
+  width: 66px;
+  padding: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: red;
+  text-transform: uppercase;
+}
+
+#pokemon-stats{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top:40px;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #f5f6f7;
+    width: 80%;  
+    color: #f5f6f7;
+    background-color: #7f21ab;
+    box-shadow: 5px 5px #888888;
+}
+th{
+    font-size: 18px;
+    text-align: center;
+}
+td {
+padding-left: 75px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-top: 2px solid #f5f6f7;
+text-align: left;
+}
+
+#col1 {
+    border-right: 2px solid #f5f6f7;
+}
+
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #9e93f1;
+}
+
+.dark {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}
